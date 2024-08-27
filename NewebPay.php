@@ -179,7 +179,7 @@ class NewebPay
 
     public function issue(PeriodInfo $info)
     {
-        echo <<<EOT
+        return <<<EOT
 <!DOCTYPE html>
 <html>
     <head>
@@ -216,7 +216,7 @@ EOT;
 
     public function checkout(Info $info)
     {
-        echo <<<EOT
+        return <<<EOT
 <!DOCTYPE html>
 <html>
     <head>
